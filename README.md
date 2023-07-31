@@ -1,5 +1,4 @@
-# Fifa-2020
-# Model for analyze skills of football player
+# Model For Analyzing skills of football player.
 
 
 ## Project Summary:
