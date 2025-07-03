@@ -23,27 +23,6 @@ All code and analysis are contained in Jupyter Notebook files (`.ipynb`). Typica
 - **Modeling:** Apply ML algorithms (e.g., regression, clustering) to derive insights or predictions.
 - **Visualization:** Generate plots to help interpret results.
 
-## Getting Started
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/Pickase/Fifa-2020.git
-    ```
-
-2. Install the required Python libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    Or install Jupyter if you don’t have it yet:
-    ```bash
-    pip install notebook
-    ```
-
-3. Launch Jupyter Notebook and open one of the project notebooks:
-    ```bash
-    jupyter notebook
-    ```
-
 ## Requirements
 
 - Python 3.x
@@ -54,9 +33,6 @@ All code and analysis are contained in Jupyter Notebook files (`.ipynb`). Typica
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Author
 
