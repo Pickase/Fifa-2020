@@ -1,24 +1,66 @@
-# Model For Analyzing skills of football player.
+# Fifa-2020
 
+A data science project for analyzing the skills of football players using machine learning and statistical techniques.
 
-## Project Summary:
-In this project, we conducted a clustering analysis on football players based on their skills and attributes using FIFA 2020 data.
-We explored the dataset and built models using K-means clustering, Hierarchical clustering, and DBSCAN to categorize players. 
-The performance of the models was evaluated using the silhouette score. 
-The analysis aimed to provide insights into player characteristics and aid in finding suitable replacements for players.
+## Project Overview
 
-## Methodology:
-Conducted exploratory data analysis to investigate player attributes and strengths using univariate, bivariate, and multivariate analysis.
-Performed data preprocessing by cleaning and processing the data, handling missing values, converting categorical features to numerical, and removing highly correlated features.
-Utilized robust scaling to bring features to a uniform scale.
-Employed principal component analysis to simplify the complexity of high-dimensional data while retaining trends and patterns.
-Applied K-means clustering, Hierarchical clustering, and DBSCAN to obtain player clusters.
-Evaluated model performance using the silhouette score.
+**Fifa-2020** provides a model to analyze and visualize the skills and attributes of football players. This project uses real-world football player data and leverages the power of Jupyter Notebooks to perform data cleaning, exploration, feature engineering, and modeling.
 
-## Conclusion:
-By employing clustering analysis and principal component analysis,
-we categorized football players based on their skills and attributes.
-We used K-means clustering, Hierarchical clustering, and DBSCAN to form player clusters. 
-All three models provided similar results, but DBSCAN showed a higher silhouette score.
-The project summary highlighted the key findings and methodologies employed in the analysis.
-The insights obtained can be valuable for understanding player characteristics and optimizing team composition in football.
+## Features
+
+- Import and clean football player datasets
+- Analyze player attributes and skills
+- Visualize distributions and relationships between key features
+- Build and evaluate machine learning models to predict or cluster player abilities
+
+## Repository Structure
+
+All code and analysis are contained in Jupyter Notebook files (`.ipynb`). Typical workflow includes:
+
+- **Data Loading & Cleaning:** Import raw data, handle missing values, and prepare for analysis.
+- **Exploratory Data Analysis:** Visualize player stats, distributions, and relationships.
+- **Feature Engineering:** Create new features that capture player skills more effectively.
+- **Modeling:** Apply ML algorithms (e.g., regression, clustering) to derive insights or predictions.
+- **Visualization:** Generate plots to help interpret results.
+
+## Getting Started
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Pickase/Fifa-2020.git
+    ```
+
+2. Install the required Python libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    Or install Jupyter if you don’t have it yet:
+    ```bash
+    pip install notebook
+    ```
+
+3. Launch Jupyter Notebook and open one of the project notebooks:
+    ```bash
+    jupyter notebook
+    ```
+
+## Requirements
+
+- Python 3.x
+- Jupyter Notebook
+- Common data science libraries (pandas, numpy, matplotlib, scikit-learn, etc.)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+- [Pickase](https://github.com/Pickase)
+
+---
+_Model for analyze skills of football player_
